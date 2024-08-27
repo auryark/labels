@@ -1,0 +1,171 @@
+- name: Breaking Change
+  color: "c62828"
+  description: Alteration that won't be backward compatible
+
+- name: Good First Issue
+  color: "6a5acd"
+  description: Perfect for newcomers to tackle
+
+- name: Help Wanted
+  color: "008000"
+  description: Looking for assistance
+
+# +----------+
+# | Reviewed |
+# +----------+
+
+- name: Reviewed/Approved
+  color: "805a4c"
+  description: Acknowledged and approved for action
+
+- name: Reviewed/Changes Requested
+  color: "ff6347"
+  description: Requires further assessment or modification
+
+- name: Reviewed/Won't Fix
+  color: "f8f8f8"
+  description: Not intending to address this
+
+- name: Reviewed/Duplicate
+  color: "666666"
+  description: Issue already exists
+
+- name: Reviewed/Invalid
+  color: "597481"
+  description: Not a valid problem or request
+
+# +--------+
+# | Status |
+# +--------+
+
+- name: Status/Abandoned
+  color: "262626"
+  description: Incompleted and no longer being worked on
+
+- name: Status/Available
+  color: "008000"
+  description: Ready and accessible for work
+
+- name: Status/Blocked
+  color: "940f56"
+  description: Progress impeded by obstacles
+
+- name: Status/Completed
+  color: "00ff00"
+  description: Successfully finished or resolved
+
+- name: Status/In Progress
+  color: "ffa500"
+  description: Currently being worked on
+
+- name: Status/On Hold
+  color: "4682b4"
+  description: Temporarily paused or delayed
+
+- name: Status/Need More Info
+  color: "474747"
+  description: Feedback is required to reproduce issue or to continue work
+
+# +----------+
+# | Priority |
+# +----------+
+
+- name: Priority/Low
+  color: "50b754"
+  description: Low level of importance
+
+- name: Priority/Medium
+  color: "f34e1a"
+  description: Moderate level of importance
+
+- name: Priority/High
+  color: "e03232"
+  description: High level of importance
+
+- name: Priority/Critical
+  color: "c41e1e"
+  description: Extremely urgent
+
+# +------+
+# | Size |
+# +------+
+
+- name: Size/XS
+  description: An pull request that changes 1-9 lines
+  color: "afeeee"
+
+- name: Size/S
+  description: An pull request that changes 10-29 lines
+  color: "00ced1"
+
+- name: Size/M
+  description: An pull request that changes 30-99 lines
+  color: "008b8b"
+
+- name: Size/L
+  description: An pull request that changes 100-499 lines
+  color: "00688b"
+
+- name: Size/XL
+  description: An pull request that changes 500-999 lines
+  color: "004b49"
+
+- name: Size/XXL
+  description: An pull request that changes 1000+ lines
+  color: "002f2f"
+
+# +------+
+# | Kind |
+# +------+
+
+- name: Kind/Feature
+  color: "0288d1"
+  description: Introducing a new functionality
+
+- name: Kind/Enhancement
+  color: "84b6eb"
+  description: Improving existing functionality
+
+- name: Kind/Bug
+  color: "ee0701"
+  description: Something isn't working as expected
+
+- name: Kind/Fix
+  color: "ff6347"
+  description: Correcting a mistake or resolving an issue
+
+- name: Kind/Documentation
+  color: "37474f"
+  description: Related to project documentation
+
+- name: Kind/Style
+  color: "ffd700"
+  description: Affecting the visual appearance
+
+- name: Kind/Refactor
+  color: "440ee8"
+  description: Restructuring without changing behavior
+
+- name: Kind/Performance
+  color: "ff1493"
+  description: Related to optimizing performance
+
+- name: Kind/Test
+  color: "795548"
+  description: Concerning tests or test cases
+
+- name: Kind/Build
+  color: "2e8b57"
+  description: Concerning project dependencies or the build system
+
+- name: Kind/CI
+  color: "800080"
+  description: Regarding continuous integration
+
+- name: Kind/Chore
+  color: "bfd4f2"
+  description: Routine or maintenance task
+
+- name: Kind/Security
+  color: "9c27b0"
+  description: Dealing with security concerns

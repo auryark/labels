@@ -1,0 +1,22 @@
+name: 🏷️ Syncronize
+
+on:
+  workflow_call:
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4.1.7
+
+      - name: 🔄 Syncronize labels
+        uses: EndBug/label-sync@v2.3.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config-file: https://raw.githubusercontent.com/auryark/labels/main/labels.yml
+          delete-other-labels: true
